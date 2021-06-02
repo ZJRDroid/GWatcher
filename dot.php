@@ -11,14 +11,14 @@ $config = [
         "chat_id" => $_ENV['TG_CHAT_ID']
     ],
     "gerrit" => [
-        "url" => "https://review.lineageos.org/",
+        "url" => "https://review.droidontime.com/",
         "romsideChecker" => [
-            "enabled" => true,
+            "enabled" => false,
             "blacklist" => ['kernel', 'device'],
-            "whitelist" => ['qcom', 'sepolicy', 'lineage']
+            "whitelist" => ['qcom', 'sepolicy', 'dot']
         ],
     ],
-    "cache" => "lineage.cache" // cache filename
+    "cache" => "dot.cache" // cache filename
 ];
 
 runAsLoop($config); //useful for cli
