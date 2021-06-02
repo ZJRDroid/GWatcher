@@ -52,7 +52,7 @@ Class Updater {
 
 
 
-$updater = new Updater("src/", "https://raw.githubusercontent.com/andersonmendess/GWatcher/master/");
+$updater = new Updater("src/", "https://raw.githubusercontent.com/zjunior06/GWatcher/master/");
 
 foreach ($updater->files as $file) {
     if($updater->needUpdate($file)){
