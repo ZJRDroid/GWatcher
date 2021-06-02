@@ -4,4 +4,4 @@ WORKDIR /gwatcher
 
 COPY . .
 
-CMD ["php", "lineage.php"]
+CMD ["php", "dot.php"]
