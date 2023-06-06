@@ -11,14 +11,14 @@ $config = [
         "chat_id" => $_ENV['TG_CHAT_ID']
     ],
     "gerrit" => [
-        "url" => "https://review.droidontime.com/",
+        "url" => "https://review.arrowos.net/",
         "romsideChecker" => [
             "enabled" => false,
             "blacklist" => ['kernel', 'device'],
-            "whitelist" => ['qcom', 'sepolicy', 'dot']
+            "whitelist" => ['qcom', 'sepolicy', 'arrow']
         ],
     ],
-    "cache" => "dot.cache" // cache filename
+    "cache" => "arrow.cache" // cache filename
 ];
 
 runAsLoop($config); //useful for cli
