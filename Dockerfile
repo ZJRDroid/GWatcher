@@ -4,4 +4,4 @@ WORKDIR /gwatcher
 
 COPY . .
 
-CMD ["php", "dot.php"]
+CMD ["php", "arrow.php"]
